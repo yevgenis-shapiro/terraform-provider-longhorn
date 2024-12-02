@@ -1,0 +1,21 @@
+# Default values for longhorn.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+persistence:
+  # -- Set replica count for Longhorn StorageClass
+  defaultClassReplicaCount: ${default_class_replica_count}
+
+csi:
+  # -- Specify replica count of CSI Attacher. Leave blank to use default count: 3
+  attacherReplicaCount: ${csi_attacher_replica_count}
+  # -- Specify replica count of CSI Provisioner. Leave blank to use default count: 3
+  provisionerReplicaCount: ${csi_provisioner_replica_count}
+  # -- Specify replica count of CSI Resizer. Leave blank to use default count: 3
+  resizerReplicaCount: ${csi_resizer_replica_count}
+  # -- Specify replica count of CSI Snapshotter. Leave blank to use default count: 3
+  snapshotterReplicaCount: ${csi_snapshotter_replica_count}
+
+longhornUI:
+  # -- Replica count for longhorn ui
+  replicas: ${longhornui_replicas}

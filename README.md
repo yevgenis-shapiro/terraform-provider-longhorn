@@ -32,12 +32,7 @@ The following tools were used in this project:
 
 Components :
 
-Longhorn Backing Image Manager
-Longhorn Instance Manager
-Longhorn Manager
-Longhorn Share Manager
-Longhorn UI
-
+Longhorn Backing Image Manager,Longhorn Instance Manager,Longhorn Manager,Longhorn Share Manager,Longhorn UI
 
 
 ✅ Requirements

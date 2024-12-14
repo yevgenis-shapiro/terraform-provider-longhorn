@@ -1,3 +1,4 @@
+# Longhorn
 Longhorn is a distributed block storage system for Kubernetes. Longhorn is cloud-native storage built using Kubernetes and container primitives
 
 ![longhorn-dashboard-v3](https://github.com/longhorn/longhorn/blob/master/longhorn-ui.png)
@@ -8,19 +9,22 @@ Longhorn implements distributed block storage using containers and microservices
  
 🎯 Features :
 
-1.Enterprise-grade distributed storage with no single point of failure
+```
+✅ Enterprise-grade distributed storage with no single point of failure
+✅ Incremental snapshot of block storage
+✅ Backup to secondary storage (NFSv4 or S3-compatible object storage) built on efficient change block detection
+✅ Recurring snapshot and backup
+✅ Automated non-disruptive upgrade. You can upgrade the entire Longhorn software stack without disrupting running volumes
+✅ Intuitive GUI dashboard
+```
 
-2.Incremental snapshot of block storage
-
-3.Backup to secondary storage (NFSv4 or S3-compatible object storage) built on efficient change block detection
-
-4.Recurring snapshot and backup
-
-5.Automated non-disruptive upgrade. You can upgrade the entire Longhorn software stack without disrupting running volumes
-
-6.Intuitive GUI dashboard
-
-
+# Components
+```
+Longhorn Backing Image Manage
+Longhorn Instance Manager
+Longhorn Manager
+Longhorn Share Manager
+Longhorn UI
 
 
 🚀 Technologies
@@ -28,13 +32,6 @@ Longhorn implements distributed block storage using containers and microservices
 The following tools were used in this project:
 
     Terraform + Kubernetes + Longhorn
-
-
-# Components
-
-Longhorn is 100% open-source software. Project source code is spread across several repositories
-
-    Longhorn Backing Image Manager,Longhorn Instance Manager,Longhorn Manager,Longhorn Share Manager,Longhorn UI
 
 
 

@@ -30,11 +30,15 @@ The following tools were used in this project:
     Terraform + Kubernetes + Longhorn
 
 
-Components :
+# Components
 
-Longhorn Backing Image Manager,Longhorn Instance Manager,Longhorn Manager,Longhorn Share Manager,Longhorn UI
+Longhorn is 100% open-source software. Project source code is spread across several repositories
+
+    Longhorn Backing Image Manager,Longhorn Instance Manager,Longhorn Manager,Longhorn Share Manager,Longhorn UI
+
 
 
 ✅ Requirements
+
 For the installation requirements, refer to the Longhorn documentation.
 

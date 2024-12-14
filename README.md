@@ -18,7 +18,7 @@ Longhorn implements distributed block storage using containers and microservices
 ✅ Intuitive GUI dashboard
 ```
 
-# Components
+## Components
 ```
 Longhorn Backing Image Manage
 Longhorn Instance Manager

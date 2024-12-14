@@ -1,6 +1,6 @@
 Longhorn is a distributed block storage system for Kubernetes. Longhorn is cloud-native storage built using Kubernetes and container primitives
 
-![longhorn-dashboard-v3](https://github.com/user-attachments/assets/5eba8f7b-f376-4471-95bc-3d671940bfe8)
+![longhorn-dashboard-v3](https://github.com/longhorn/longhorn/blob/master/longhorn-ui.png)
 
 
 Longhorn implements distributed block storage using containers and microservices. Longhorn creates a dedicated storage controller for each block device volume and synchronously replicates the volume across multiple replicas stored on multiple nodes. The storage controller and replicas are themselves orchestrated using Kubernetes. Here are some notable features of Longhorn
@@ -27,7 +27,7 @@ Longhorn implements distributed block storage using containers and microservices
 
 The following tools were used in this project:
 
-    Kafka & Redpanda
+    Terraform + Kubernetes + Longhorn
 
 
 

@@ -30,18 +30,14 @@ The following tools were used in this project:
     Terraform + Kubernetes + Longhorn
 
 
-
 Components :
 
-Longhorn Backing Image Manager : 	Backing image download, sync, and deletion in a disk 	longhorn/backing-image-manager
+Longhorn Backing Image Manager
+Longhorn Instance Manager
+Longhorn Manager
+Longhorn Share Manager
+Longhorn UI
 
-Longhorn Instance Manager : 	Controller/replica instance lifecycle management 	longhorn/longhorn-instance-manager
-
-Longhorn Manager : Longhorn orchestration, includes CSI driver for Kubernetes 	longhorn/longhorn-manager
-
-Longhorn Share Manager :	NFS provisioner that exposes Longhorn volumes as ReadWriteMany volumes 	longhorn/longhorn-share-manager
-
-Longhorn UI : 	The Longhorn dashboard 	longhorn/longhorn-ui
 
 
 ✅ Requirements

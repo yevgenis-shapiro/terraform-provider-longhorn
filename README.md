@@ -31,7 +31,19 @@ The following tools were used in this project:
 
 
 
-✅ Requirements
+Components :
 
-Before starting 🏁, you need to have Git, Kubernetes, Terraform
+Longhorn Backing Image Manager : 	Backing image download, sync, and deletion in a disk 	longhorn/backing-image-manager
+
+Longhorn Instance Manager : 	Controller/replica instance lifecycle management 	longhorn/longhorn-instance-manager
+
+Longhorn Manager : Longhorn orchestration, includes CSI driver for Kubernetes 	longhorn/longhorn-manager
+
+Longhorn Share Manager :	NFS provisioner that exposes Longhorn volumes as ReadWriteMany volumes 	longhorn/longhorn-share-manager
+
+Longhorn UI : 	The Longhorn dashboard 	longhorn/longhorn-ui
+
+
+✅ Requirements
+For the installation requirements, refer to the Longhorn documentation.
 

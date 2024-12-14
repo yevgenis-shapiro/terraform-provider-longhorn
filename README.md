@@ -1,28 +1,24 @@
-Redpanda Console – A UI for Data Streaming , Redpanda is a web application that helps you manage and debug your Kafka/Redpanda workloads effortlessly
+Longhorn is a distributed block storage system for Kubernetes. Longhorn is cloud-native storage built using Kubernetes and container primitives
 
 ![longhorn-dashboard-v3](https://github.com/user-attachments/assets/5eba8f7b-f376-4471-95bc-3d671940bfe8)
 
 
-
+Longhorn implements distributed block storage using containers and microservices. Longhorn creates a dedicated storage controller for each block device volume and synchronously replicates the volume across multiple replicas stored on multiple nodes. The storage controller and replicas are themselves orchestrated using Kubernetes. Here are some notable features of Longhorn
 
  
 🎯 Features :
 
-Message viewer: Explore your topics' messages in our message viewer through ad-hoc queries and dynamic filters. Find any message you want using JavaScript functions to filter messages. Supported encodings are: JSON, Avro, Protobuf, CBOR, XML, MessagePack, Text and Binary (hex view). The used encoding (except Protobuf and CBOR) is recognized automatically.
+1.Enterprise-grade distributed storage with no single point of failure
 
-Consumer groups: List all your active consumer groups along with their active group offsets, edit group offsets (by group, topic or partition) or delete a consumer group.
+2.Incremental snapshot of block storage
 
-Topic overview: Browse through the list of your Kafka topics, check their configuration, space usage, list all consumers who consume a single topic or watch partition details (such as low and high water marks, message count, ...), embed topic documentation from a git repository and more.
+3.Backup to secondary storage (NFSv4 or S3-compatible object storage) built on efficient change block detection
 
-Cluster overview: List vailable brokers, their space usage, rack id, health, configuration and other information to get a high level overview of your brokers in your cluster.
+4.Recurring snapshot and backup
 
-Security: Create, list or edit Kafka ACLs and SASL-SCRAM users.
+5.Automated non-disruptive upgrade. You can upgrade the entire Longhorn software stack without disrupting running volumes
 
-Schema Registry: List and manage all aspects of your Avro, Protobuf or JSON schemas within your schema registry.
-
-Kafka connect: Manage connectors from multiple connect clusters, patch configs, view their current state or restart tasks.
-
-Redpanda Transforms: Manage and monitor data transforms deployed in your Redpanda cluster.
+6.Intuitive GUI dashboard
 
 
 
